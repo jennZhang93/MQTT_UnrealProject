@@ -1,5 +1,0 @@
-U:\EpicGames\UE_5.3\Engine\Build\BatchFiles
-
-RunUAT.bat BuildPlugin -plugin="C:\Users\ftp-user\Downloads\mqtt-utilities-unreal-master\mqtt-utilities-unreal-master\MqttUtilities\MqttUtilities.uplugin" -package="C:\Users\ftp-user\Downloads\MQTTgit"
-
-RunUAT.bat BuildPlugin -plugin="C:\Users\ftp-user\Downloads\MqttClient\MqttClient\DTMqtt.uplugin" -package="C:\Users\ftp-user\Downloads\MQTTmarketplace"
