@@ -134,7 +134,7 @@ void FOnPublishDelegate_DelegateWrapper(const FScriptDelegate& OnPublishDelegate
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_MqttUtilities_eventOnMessageDelegate_Parms, message), Z_Construct_UScriptStruct_FMqttMessage, METADATA_PARAMS(0, nullptr) }; // 2365351904
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_MqttUtilities_eventOnMessageDelegate_Parms, message), Z_Construct_UScriptStruct_FMqttMessage, METADATA_PARAMS(0, nullptr) }; // 43540183
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature_Statics::NewProp_message,
 	};
@@ -534,7 +534,7 @@ void FOnMqttErrorDelegate_DelegateWrapper(const FScriptDelegate& OnMqttErrorDele
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UMqttClientInterface_Publish_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MqttClientInterface_eventPublish_Parms, message), Z_Construct_UScriptStruct_FMqttMessage, METADATA_PARAMS(0, nullptr) }; // 2365351904
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UMqttClientInterface_Publish_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MqttClientInterface_eventPublish_Parms, message), Z_Construct_UScriptStruct_FMqttMessage, METADATA_PARAMS(0, nullptr) }; // 43540183
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMqttClientInterface_Publish_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMqttClientInterface_Publish_Statics::NewProp_message,
 	};
@@ -632,7 +632,7 @@ void FOnMqttErrorDelegate_DelegateWrapper(const FScriptDelegate& OnMqttErrorDele
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FDelegatePropertyParams Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback = { "onMessageCallback", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MqttClientInterface_eventSetOnMessageHandler_Parms, onMessageCallback), Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback_MetaData), Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback_MetaData) }; // 177401251
+	const UECodeGen_Private::FDelegatePropertyParams Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback = { "onMessageCallback", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MqttClientInterface_eventSetOnMessageHandler_Parms, onMessageCallback), Z_Construct_UDelegateFunction_MqttUtilities_OnMessageDelegate__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback_MetaData), Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback_MetaData) }; // 592597396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler_Statics::NewProp_onMessageCallback,
 	};
@@ -916,9 +916,9 @@ void FOnMqttErrorDelegate_DelegateWrapper(const FScriptDelegate& OnMqttErrorDele
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMqttClientInterface_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UMqttClientInterface_Connect, "Connect" }, // 2564640501
 		{ &Z_Construct_UFunction_UMqttClientInterface_Disconnect, "Disconnect" }, // 3009861797
-		{ &Z_Construct_UFunction_UMqttClientInterface_Publish, "Publish" }, // 3786532649
+		{ &Z_Construct_UFunction_UMqttClientInterface_Publish, "Publish" }, // 2182536775
 		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnErrorHandler, "SetOnErrorHandler" }, // 2561544217
-		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler, "SetOnMessageHandler" }, // 1935014645
+		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnMessageHandler, "SetOnMessageHandler" }, // 3591337054
 		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnPublishHandler, "SetOnPublishHandler" }, // 2267120722
 		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnSubscribeHandler, "SetOnSubscribeHandler" }, // 2374175679
 		{ &Z_Construct_UFunction_UMqttClientInterface_SetOnUnsubscribeHandler, "SetOnUnsubscribeHandler" }, // 3852859437
@@ -971,9 +971,9 @@ void FOnMqttErrorDelegate_DelegateWrapper(const FScriptDelegate& OnMqttErrorDele
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Interface_MqttClientInterface_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UMqttClientInterface, UMqttClientInterface::StaticClass, TEXT("UMqttClientInterface"), &Z_Registration_Info_UClass_UMqttClientInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMqttClientInterface), 2791598724U) },
+		{ Z_Construct_UClass_UMqttClientInterface, UMqttClientInterface::StaticClass, TEXT("UMqttClientInterface"), &Z_Registration_Info_UClass_UMqttClientInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMqttClientInterface), 4063361965U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Interface_MqttClientInterface_h_1566023172(TEXT("/Script/MqttUtilities"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Interface_MqttClientInterface_h_630145015(TEXT("/Script/MqttUtilities"),
 		Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Interface_MqttClientInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Interface_MqttClientInterface_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

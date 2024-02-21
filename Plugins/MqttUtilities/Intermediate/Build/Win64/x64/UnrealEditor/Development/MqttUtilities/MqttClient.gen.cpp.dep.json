@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttclient.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\intermediate\\build\\win64\\x64\\hostprojecteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttutilities\\definitions.mqttutilities.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\private\\windows\\mqttclient.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\private\\mqttclientbase.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\public\\interface\\mqttclientinterface.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\public\\entities\\mqttmessage.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttmessage.generated.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\public\\entities\\mqttconnectiondata.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttconnectiondata.generated.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\public\\entities\\mqttclientconfig.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttclientconfig.generated.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttclientinterface.generated.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttclientbase.generated.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttutilities\\uht\\mqttclient.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

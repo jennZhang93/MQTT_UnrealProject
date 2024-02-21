@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MqttUtilities.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\YZHANG7\OneDrive - Brunswick Corporation\Desktop\MQTT_UnrealProject\Intermediate\Build\Win64\x64\HostProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\YZHANG7\OneDrive - Brunswick Corporation\Desktop\MQTT_UnrealProject\Plugins\MqttUtilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\MqttUtilities\Module.MqttUtilities.cpp.obj"
+"C:\Users\YZHANG7\OneDrive - Brunswick Corporation\Desktop\MQTT_UnrealProject\Plugins\MqttUtilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\MqttUtilities\Default.rc2.res"
+/OUT:"C:\Users\YZHANG7\OneDrive - Brunswick Corporation\Desktop\MQTT_UnrealProject\Plugins\MqttUtilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\MqttUtilities\UnrealEditor-MqttUtilities.lib"

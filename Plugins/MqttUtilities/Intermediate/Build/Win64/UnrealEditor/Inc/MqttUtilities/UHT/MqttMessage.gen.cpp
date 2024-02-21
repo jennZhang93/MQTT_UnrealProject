@@ -32,6 +32,10 @@ template<> MQTTUTILITIES_API UScriptStruct* StaticStruct<FMqttMessage>()
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_testMessage_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_testMessage;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Message_MetaData[];
 #endif
 		static const UECodeGen_Private::FStrPropertyParams NewProp_Message;
@@ -66,6 +70,19 @@ template<> MQTTUTILITIES_API UScriptStruct* StaticStruct<FMqttMessage>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FMqttMessage>();
 	}
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_testMessage_MetaData[] = {
+		{ "Category", "MQTT" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Message content. */" },
+#endif
+		{ "ModuleRelativePath", "Public/Entities/MqttMessage.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Message content." },
+#endif
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_testMessage = { "testMessage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMqttMessage, testMessage), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_testMessage_MetaData), Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_testMessage_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_Message_MetaData[] = {
 		{ "Category", "MQTT" },
@@ -137,6 +154,7 @@ template<> MQTTUTILITIES_API UScriptStruct* StaticStruct<FMqttMessage>()
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_Qos = { "Qos", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMqttMessage, Qos), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_Qos_MetaData), Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_Qos_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMqttMessage_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_testMessage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_Message,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_MessageBuffer_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMqttMessage_Statics::NewProp_MessageBuffer,
@@ -171,9 +189,9 @@ template<> MQTTUTILITIES_API UScriptStruct* StaticStruct<FMqttMessage>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Entities_MqttMessage_h_Statics::ScriptStructInfo[] = {
-		{ FMqttMessage::StaticStruct, Z_Construct_UScriptStruct_FMqttMessage_Statics::NewStructOps, TEXT("MqttMessage"), &Z_Registration_Info_UScriptStruct_MqttMessage, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMqttMessage), 2365351904U) },
+		{ FMqttMessage::StaticStruct, Z_Construct_UScriptStruct_FMqttMessage_Statics::NewStructOps, TEXT("MqttMessage"), &Z_Registration_Info_UScriptStruct_MqttMessage, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMqttMessage), 43540183U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Entities_MqttMessage_h_3713538811(TEXT("/Script/MqttUtilities"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Entities_MqttMessage_h_3985256823(TEXT("/Script/MqttUtilities"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Entities_MqttMessage_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_YZHANG7_OneDrive___Brunswick_Corporation_Desktop_MQTT_UnrealProject_Plugins_MqttUtilities_Source_MqttUtilities_Public_Entities_MqttMessage_h_Statics::ScriptStructInfo),
 		nullptr, 0);

@@ -11,6 +11,10 @@ struct MQTTUTILITIES_API FMqttMessage
 
 	/** Message content. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MQTT")
+	FString testMessage;
+
+	/** Message content. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MQTT")
 	FString Message;
 
 	/** Message content buffer. */

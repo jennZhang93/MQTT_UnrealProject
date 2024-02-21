@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttutilities\\singlefile\\mqtttask.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttutilities\\definitions.mqttutilities.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\intermediate\\build\\win64\\x64\\hostprojecteditor\\development\\engine\\shareddefinitions.engine.cpp20.inclorderunreal5_0.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\private\\windows\\mqtttask.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

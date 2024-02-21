@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttutilities\\singlefile\\mqttclientimpl.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttutilities\\definitions.mqttutilities.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\intermediate\\build\\win64\\x64\\hostprojecteditor\\development\\engine\\shareddefinitions.engine.cpp20.inclorderunreal5_0.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\mqttutilities\\private\\windows\\mqttclientimpl.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\thirdparty\\win64\\mosquittopp\\includes\\mosquittopp.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\cstdlib",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\yvals_core.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vcruntime.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\sal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\concurrencysal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vadefs.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xkeycheck.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\math.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_math.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdlib.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_malloc.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_search.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stddef.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wstdlib.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\limits.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\time.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wtime.h",
+            "c:\\users\\yzhang7\\onedrive - brunswick corporation\\desktop\\mqtt_unrealproject\\plugins\\mqttutilities\\source\\thirdparty\\win64\\mosquitto\\includes\\mosquitto.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
